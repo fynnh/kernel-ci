@@ -1,7 +1,6 @@
 language: c
 
 env:
- - GRSEC=true
  - GRSEC=false
 
 before_install:

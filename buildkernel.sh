@@ -194,8 +194,8 @@ AptUpdate() {
   if [ "$APT_UPDATE" == "true" ]; then
     echo "Performing apt-get update..."
     apt-get -y update
-    echo "Performing apt-get upgrade..."
-    apt-get -y upgrade
+    #echo "Performing apt-get upgrade..."
+    #apt-get -y upgrade
   fi
 }
 
